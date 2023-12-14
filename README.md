@@ -9,23 +9,26 @@ El ejercicio está en una arquitectura ordenada y simple de trabajar con el reus
 <br><br>
 
 <b>Documentación endpoints:</b>
-1. setTarea
-    http://localhost:8000/api/awt/crud/deleteTarea
-    parametros:
-       txtTitulo
-       txtDescripcion
+1. setTarea<br>
+    POST<br>
+    http://localhost:8000/api/awt/crud/deleteTarea<br>
+    parametros:<br>
+       txtTitulo<br>
+       txtDescripcion<br>
        dtbFechaVencimiento
 
-2. modifyTarea
-    http://localhost:8000/api/awt/crud/modifyTarea
-    parametros:
-       idtarea
-       txtTitulo
-       txtDescripcion
+3. modifyTarea<br>
+    POST<br>
+    http://localhost:8000/api/awt/crud/modifyTarea<br>
+    parametros:<br>
+       idtarea<br>
+       txtTitulo<br>
+       txtDescripcion<br>
        dtbFechaVencimiento
 
-3. deleteTarea
-    http://localhost:8000/api/awt/crud/deleteTarea
-    parametros:
+5. deleteTarea<br>
+    POST<br>
+    http://localhost:8000/api/awt/crud/deleteTarea<br>
+    parametros:<br>
        idtarea
    
